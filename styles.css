@@ -1,0 +1,135 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styles for the entire page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* .navbar{
+    display: flex;
+    align-content: center;
+    flex-direction: row-reverse;
+}
+.navbar .nav-links {
+    justify-content: center;
+    align-items: center;
+
+} */
+.navbar {
+    display: flex;
+    background-color: whitesmoke;
+    overflow: hidden;
+    justify-content: space-between;
+    height: 100px;
+}
+
+
+.nav-sec {
+    display: flex;
+    align-items: flex-start;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+}
+
+.navbar a {
+    color: #000000;
+    text-decoration: none;
+    padding: 14px 16px;
+}
+
+.navbar a:hover {
+    background-color: rgb(83, 128, 165);
+    color: black;
+}
+
+/* .navbar .nav-links a[href="#cart"],
+.navbar .nav-links a[href="#profile"] {
+    display: flex;
+    align-items: center;
+} */
+
+/* Additional styling for the cart and profile icons */
+/* .navbar .nav-links a img {
+    height: 35px;
+    width: 35px;
+    margin-right: 5px; 
+} */
+
+
+/* Style for the product listings */
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    background-color: #ffffff;
+
+}
+
+.product {
+    background-color: #c5428a;
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+    border-radius: 15px;
+    width: 250px;
+}
+
+.product img {
+    height: 200px; width: 300px;
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.product h2 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.product p {
+    font-size: 16px;
+    color: #333;
+    margin: 10px 0;
+}
+
+.product button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.product button:hover {
+    background-color: #555;
+}
+
+/* Style for the advertisement section */
+.advertisement {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 0 20px 0;
+    text-align: center;
+    /* margin: 10px; */
+    background-color: #686a6d;
+}
+
+.advertisement img {
+    
+    max-width: 100%;
+    height: auto;
+}
